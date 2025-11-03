@@ -2360,8 +2360,8 @@ ConfigSystem.<Editor>.Engine:/Script/Engine.UserInterfaceSettings:UIScaleRule:0=
 ConfigSystem.<Editor>.Engine:/Script/Engine.WorldPartitionSettings:EditorHashDefaultClass:0=/Script/CoreUObject.Class'/Script/Engine.WorldPartitionEditorSpatialHash'
 ConfigSystem.<Editor>.Engine:/Script/Engine.WorldPartitionSettings:RuntimeHashDefaultClass:0=/Script/CoreUObject.Class'/Script/Engine.WorldPartitionRuntimeHashSet'
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:bUseSplitscreen:0=True
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
-ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/MainContents/Map/GameMap.GameMap
+ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/MainContents/Map/GameMap.GameMap
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/MainContents/Control/GM_GameBase.GM_GameBase_C
 ConfigSystem.<Editor>.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
@@ -2699,8 +2699,6 @@ ConfigSystem.<Editor>.Engine:ConsoleVariables:memory.MemoryPressureCriticalThres
 ConfigSystem.<Editor>.Engine:Core.ContentVirtualization:InitPreSlate:0=False
 ConfigSystem.<Editor>.Engine:Core.ContentVirtualization:LazyInit:0=False
 ConfigSystem.<Editor>.Engine:Core.ContentVirtualization:SystemName:0=None
-ConfigSystem.<Editor>.Engine:Core.System:AssetLogShowsAbsolutePath:0=True
-ConfigSystem.<Editor>.Engine:Core.System:AssetLogShowsDiskPath:0=True
 ConfigSystem.<Editor>.Engine:Core.System:CanSkipEditorReferencedPackagesWhenCooking:0=False
 ConfigSystem.<Editor>.Engine:Core.System:CanStripEditorOnlyExportsAndImports:0=True
 ConfigSystem.<Editor>.Engine:Core.System:CanUseUnversionedPropertySerialization:0=True
@@ -2734,7 +2732,6 @@ ConfigSystem.<Editor>.Engine:DevOptions.Shaders:NumUnusedShaderCompilingThreads:
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:NumUnusedShaderCompilingThreadsDuringGame:0=4
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:ProcessGameThreadTargetTime:0=.01
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:ShaderCompilerCoreCountThreshold:0=12
-ConfigSystem.<Editor>.Engine:DevOptions.Shaders:WorkerProcessPriority:0=-1
 ConfigSystem.<Editor>.Engine:DevOptions.Shaders:WorkerTimeToLive:0=20
 ConfigSystem.<Editor>.Engine:Engine.ErrorHandling:bPromptForRemoteDebugging:0=false
 ConfigSystem.<Editor>.Engine:Engine.ErrorHandling:bPromptForRemoteDebugOnEnsure:0=false
@@ -3981,7 +3978,7 @@ LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSetting
 LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bSupportsVulkan:0=true
 LocalIniFile.Android.Engine:/Script/AndroidRuntimeSettings.AndroidRuntimeSettings:bSupportsVulkanSM5:0=false
 LocalIniFile.IOS.Engine:/Script/IOSRuntimeSettings.IOSRuntimeSettings:bSupportsMetalMRT:0=False
-LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/MainContents/Map/GameMap.GameMap
 LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
 LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/MainContents/Control/GM_GameBase.GM_GameBase_C
 LocalIniFile.Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None

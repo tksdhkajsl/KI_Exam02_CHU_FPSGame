@@ -100,6 +100,9 @@
 		{
 			"ShaderMapHash": "AADEF724AEDB758510EF95DF76E4513DBF82A1D8",
 			"Assets": [
+				"/Game/ModularSciFiEnv_I/Materials/ColorSchemes/CSA_Base_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/ColorSchemes/CSA_Details_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Base_DEtails_A_Inst",
 				"/Game/ModularSciFiEnv_I/Materials/Instances/Second_Details_A_Inst"
 			]
 		},
@@ -119,12 +122,6 @@
 			"ShaderMapHash": "C978B8289A41468BD9AF503D54FAB4660B8F2363",
 			"Assets": [
 				"/Game/ModularSciFiEnv_I/Materials/Base/M_Monocolor_MAT"
-			]
-		},
-		{
-			"ShaderMapHash": "18CBF52980BF7B176815390B3E7AE405BEA30A00",
-			"Assets": [
-				"/Game/LevelPrototyping/Materials/M_PrototypeGrid"
 			]
 		},
 		{
@@ -266,6 +263,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "E9D86860CA57F609C801CF74B473D0E8CEDBB6C1",
+			"Assets": [
+				"/Game/StarterContent/Materials/M_Glass"
+			]
+		},
+		{
 			"ShaderMapHash": "672983619603074A84B0F1C032FF5D786F36C6A6",
 			"Assets": [
 				"/Game/ModularSciFiEnv_I/Materials/ColorSchemes/CSA_Emiss_Inst"
@@ -275,12 +278,6 @@
 			"ShaderMapHash": "A257BA61F7AE8A3F72DCC39F07479DAB9FA125C6",
 			"Assets": [
 				"/Engine/EngineMaterials/FlattenMaterial_VT"
-			]
-		},
-		{
-			"ShaderMapHash": "214717663469B09E63C5362A7209F0E2DD42F33B",
-			"Assets": [
-				"/Engine/EngineSky/M_SimpleSkyDome"
 			]
 		},
 		{
@@ -340,7 +337,10 @@
 		{
 			"ShaderMapHash": "8E58A17D163EE1882157ED1ADB854B3C5155E836",
 			"Assets": [
-				"/Game/ModularSciFiEnv_I/Materials/Instances/Details_Emiss_Dark_Inst"
+				"/Game/ModularSciFiEnv_I/Materials/ColorSchemes/CSA_SecondEmiss_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Details_Emiss_Dark_Blue_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Details_Emiss_Dark_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Second_Emiss_Inst"
 			]
 		},
 		{
@@ -388,7 +388,8 @@
 		{
 			"ShaderMapHash": "5B791F8B49276ACC29C7F627C67A3D9BE83B7649",
 			"Assets": [
-				"/Engine/EngineMaterials/Widget3DPassThrough"
+				"/Engine/EngineMaterials/Widget3DPassThrough",
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
 			]
 		},
 		{
@@ -413,6 +414,12 @@
 			"ShaderMapHash": "70BE1B97F1045E0BC13E2B5CEA9FFFAFCEFFB096",
 			"Assets": [
 				"/InterchangeAssets/gltf/M_Default"
+			]
+		},
+		{
+			"ShaderMapHash": "5A7E759A9870DB91B1CD55622C8F69823F5A71D8",
+			"Assets": [
+				"/Engine/MapTemplates/Sky/M_Procedural_Sky_MASTER02"
 			]
 		},
 		{
@@ -507,12 +514,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "065742B6D68D9733E86E11C6037DA9CD1AF8D77E",
-			"Assets": [
-				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark"
-			]
-		},
-		{
 			"ShaderMapHash": "6EFB8AB7655E4A6171E799EE30BD1CACD0F1E4D4",
 			"Assets": [
 				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
@@ -534,7 +535,8 @@
 		{
 			"ShaderMapHash": "E18907BD9E09D45551B8B4AD03AC69E46F757E81",
 			"Assets": [
-				"/Game/SciFITrooper_Man_03/Materials/M_Sci-FITropperMan-03"
+				"/Game/SciFITrooper_Man_03/Materials/M_Sci-FITropperMan-03",
+				"/Game/SciFITrooper_Man_03/Materials/MI/MI_Sci-FITropperMan-03_Bottom_5"
 			]
 		},
 		{
@@ -546,7 +548,16 @@
 		{
 			"ShaderMapHash": "1B5DE2BF341093177002EDD365D9078AE85830D0",
 			"Assets": [
-				"/Game/ModularSciFiEnv_I/Materials/Instances/Trim_D_Color_A_Inst"
+				"/Game/ModularSciFiEnv_I/Materials/Base/M_Base_MAT",
+				"/Game/ModularSciFiEnv_I/Materials/ColorSchemes/CSA_Second_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Details_Details_A_Dark_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Details_Details_A_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Rubber_AD_Details_A_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Rubber_B_Details_A_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Rubber_BB_Details_A_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Second_Details_A_INoEdges_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Trim_D_Color_A_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Trim_D_Color_B_Inst"
 			]
 		},
 		{
@@ -565,6 +576,12 @@
 			"ShaderMapHash": "DC0DB0C11CD24F488CBDAEA108C9BD80B222527C",
 			"Assets": [
 				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
+			]
+		},
+		{
+			"ShaderMapHash": "B59749C308E13D13D401AA5DBF81C64EDE662EB9",
+			"Assets": [
+				"/Engine/MapTemplates/Sky/M_Procedural_Sky_Night"
 			]
 		},
 		{
@@ -589,6 +606,12 @@
 			"ShaderMapHash": "2A63F6C6CD4EF6474F977C37B836BA66E358F192",
 			"Assets": [
 				"/InterchangeAssets/gltf/M_Transmission"
+			]
+		},
+		{
+			"ShaderMapHash": "6219C0CEC41FF8B459832C997FACAFDE5A7A4CE7",
+			"Assets": [
+				"/Game/Fab/Battleship/TT_checker_4096x4096_UV_GRID"
 			]
 		},
 		{
@@ -630,19 +653,14 @@
 		{
 			"ShaderMapHash": "FB1B71ECC5257BA086B832C97AFE6107932A6FA0",
 			"Assets": [
-				"/Game/ModularSciFiEnv_I/Materials/Instances/Emiss_Lamp_Blue_Inst"
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Emiss_Lamp_Blue_Inst",
+				"/Game/ModularSciFiEnv_I/Materials/Instances/Emiss_Lamp_Yellow_Inst"
 			]
 		},
 		{
 			"ShaderMapHash": "726A88EF2B1AA3CA465C213B19C00B47D52101D2",
 			"Assets": [
 				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
-			]
-		},
-		{
-			"ShaderMapHash": "670957F1EB73028C4DD6AF12D71F5D8669963D6B",
-			"Assets": [
-				"/Game/LevelPrototyping/Materials/MI_PrototypeGrid_Gray"
 			]
 		},
 		{
